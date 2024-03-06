@@ -47,7 +47,7 @@ body {
 	height: 60px;
 	margin: -30px 0 0 -30px;
  
-	opacity: 1;
+	opacity: .5;
 	background: var(--color-link);
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 
@@ -55,7 +55,7 @@ body {
 
 @keyframes loaderAnim {
 	to {
-		opacity: 2;
+		opacity: 1;
 		transform: scale3d(0.5,0.5,1);
 	}
 }
